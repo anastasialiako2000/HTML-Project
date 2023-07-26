@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Route Planning - Εγγραφή</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+  <!-- Adding some custom style to page -->
+  <style type="text/css">
+    container {
+      width: 1130px;
+      margin: auto;
+      margin-top: 20px;
+    }
+
+    .main-label {
+      font-size: 16px;
+    }
+
+    hr {
+      width: 90%;
+    }
+
+    body {
+      text-align: center;
+    }
+  </style>
+</head>
+
+
+<body>
+  <div class=container style="text-align: center;">
+    <h1> Εγγραφή Χρήστη </h1>
+    <hr>
+    <br>
+    <div class="alert alert-success" role="alert" style="text-align: center">Εισάγετε τα στοιχεία της επιχείρησής σας
+    </div>
+    <br>
+    <form method="POST" class="form-horizontal">
+
+      <!-- username -->
+      <div class="form-group">
+        <label for="name" class="col-sm-2 control-label main-label" style="margin-left: 20%;">Επωνυμία : </label>
+        <div class="col-sm-10" style="width: 200px;">
+          <input type="text" name="name" id="name" class="form-control" style="width: 300px;">
+        </div>
+      </div>
+
+      <!-- phone -->
+      <div class="form-group">
+        <label for="phone" class="col-sm-2 control-label main-label" style="margin-left: 20%;">Τηλέφωνο: </label>
+        <div class="col-sm-10" style="width: 200px;">
+          <input type="text" name="phone" id="phone" class="form-control" style="width: 300px;">
+        </div>
+      </div>
+
+      <!-- email -->
+      <div class="form-group">
+        <label for="email" class="col-sm-2 control-label main-label" style="margin-left: 20%;">Email: </label>
+        <div class="col-sm-10" style="width: 200px;">
+          <input type="email" name="email" id="email" class="form-control" style="width: 300px;">
+        </div>
+      </div>
+
+      <!-- address -->
+      <div class="form-group">
+        <label for="address" class="col-sm-2 control-label main-label" style="margin-left: 20%;">Διεύθυνση: </label>
+        <div class="col-sm-10" style="width: 200px;">
+          <input type="text" name="address" id="address" class="form-control" style="width: 300px;">
+        </div>
+      </div>
+
+      <!-- username -->
+      <div class="form-group">
+        <label for="username" class="col-sm-2 control-label main-label" style="margin-left: 20%;">Όνομα Χρήστη :
+        </label>
+        <div class="col-sm-10" style="width: 200px;">
+          <input type="text" name="username" id="username" class="form-control" style="width: 300px;">
+        </div>
+      </div>
+
+      <!-- password -->
+      <div class="form-group">
+        <label for="password" class="col-sm-2 control-label main-label" style="margin-left: 20%;">Κωδικός: </label>
+        <div class="col-sm-10" style="width: 200px;">
+          <input type="password" name="password" id="password" class="form-control" style="width: 300px;">
+        </div>
+      </div>
+
+      <!-- confirm password -->
+      <div class="form-group">
+        <label for="Confirm" class="col-sm-2 control-label main-label" style="margin-left: 20%;">Επιβεβαίωση Κωδικού:
+        </label>
+        <div class="col-sm-10" style="width: 200px;">
+          <input type="password" name="confirm" id="confirm" class="form-control" style="width: 300px;">
+        </div>
+      </div>
+
+      <!-- buttons -->
+      <div class="form-group">
+        <a href="login.html"class="button btn btn-success" type="button">Εγγραφή</a>
+      </div>
+    </form>
+  </div>
+  <!-- /container -->
+</body>
+
+</html>

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Route Planning - Είσοδος</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+  <!-- Adding some custom style to page -->
+  <style type="text/css">
+    container {
+      width: 1130px;
+      margin: auto;
+      margin-top: 20px;
+    }
+
+    .main-label {
+      font-size: 16px;
+    }
+
+    hr {
+      width: 90%;
+    }
+
+    body {
+      text-align: center;
+    }
+  </style>
+</head>
+
+
+<body>
+
+  <div class=container style="text-align: center;">
+    <div class="page-header">
+      <h1> Καλώς ήρθατε στο Route Planning ! </h1>
+    </div>
+
+    <h3>
+      <div class="alert alert-success" role="alert" style="text-align: center">Μια εφαρμογή για τη βελτιστοποίηση των
+        δρομολογίων της επιχείρησής σας</p>
+      </div>
+    </h3>
+
+    <br>
+    <p>Συνδεθείτε στο λογαριασμό σας</p>
+    <br>
+
+    <form method="POST" class="form-horizontal">
+
+      <!-- username -->
+      <div class="form-group">
+        <label for="username" class="col-sm-2 control-label main-label" style="margin-left: 31%;">Όνομα Χρήστη :
+        </label>
+        <div class="col-sm-10" style="width: 200px;">
+          <input type="text" name="username" id="username" class="form-control">
+        </div>
+      </div>
+
+      <!-- password -->
+      <div class="form-group">
+        <label for="password" class="col-sm-2 control-label main-label" style="margin-left: 31%;">Κωδικός : </label>
+        <div class="col-sm-10" style="width: 200px;">
+          <input type="password" name="password" id="password" class="form-control">
+        </div>
+      </div>
+
+      <br>
+      <br>
+      <!-- buttons -->
+      <div class="form-group">
+        <a href="menu.html"class="button btn btn-success" type="button">Σύνδεση</a>
+      </div>
+    </form>
+  </div>
+  <br>
+  <br>
+  <p class="text-center">Δεν είστε εγγεγραμένος;</p>
+  <p class="text-center">Κάντε εγγραφή <a href="signup.html">εδώ</a>.</p>
+</body>
+
+</html>

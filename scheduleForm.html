@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Route Planning - Εισαγωγή στοιχείων</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <!-- Adding some custom style to page -->
+    <style type="text/css">
+        container {
+            width: 1130px;
+            margin: auto;
+            margin-top: 20px;
+        }
+
+        a:link,
+        a:visited {
+            color: white;
+        }
+
+        form {
+            max-width: 600px;
+        }
+
+        .main-label {
+            font-size: 16px;
+        }
+
+
+        hr {
+            width: 90%;
+        }
+
+        .hidden-textbox {
+            visibility: hidden;
+        }
+
+        input[type='checkbox']:checked~.hidden-textbox {
+            visibility: visible;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="container theme-showcase" style="text-align: center; margin-top: 2%;">
+            <h1>Εισαγωγή στοιχείων για την έκδοση του προγράμματος</h1>
+        </div>
+    </div>
+
+    <hr>
+
+    <div class="container">
+        <form method="POST">
+            <h3>Επιλογή πελατών που θα εξυπηρετηθούν</h3>
+            <div class="form-check">
+                <div class="col-sm-offset-1 form-inline form-horizontal" style="font-size:15px;">
+                    <label for id="Client1" class="checkbox-inline">
+                        <input type="checkbox" name="Client1" id="Client1" value="Client1">Πελάτης 1
+                        <input type="text" name="quant" style="width: 90px; margin-left: 20px;"
+                            class="hidden-textbox form-control" placeholder="Ποσότητα">
+                    </label>
+                    <br>
+
+                    <label for id="Client2" class="checkbox-inline">
+                        <input type="checkbox" name="Client2" id="Client2" value="Client2">Πελάτης 2
+                        <input type="text" name="quant" style="width: 90px; margin-left: 20px;"
+                            class="hidden-textbox form-control" placeholder="Ποσότητα">
+                    </label>
+                    <br>
+
+                    <label for id="Client3" class="checkbox-inline">
+                        <input type="checkbox" name="Client3" id="Client3" value="Client3">Πελάτης 3
+                        <input type="text" name="quant" style="width: 90px; margin-left: 20px;"
+                            class="hidden-textbox form-control" placeholder="Ποσότητα">
+                    </label>
+                    <br>
+
+                    <label for id="Client4" class="checkbox-inline">
+                        <input type="checkbox" name="Client4" id="Client4" value="Client4">Πελάτης 4
+                        <input type="text" name="quant" style="width: 90px; margin-left: 20px;"
+                            class="hidden-textbox form-control" placeholder="Ποσότητα">
+                    </label>
+                    <br>
+
+                    <label for id="Client5" class="checkbox-inline">
+                        <input type="checkbox" name="Client5" id="Client5" value="Client5">Πελάτης 5
+                        <input type="text" name="quant" style="width: 90px; margin-left: 20px;"
+                            class="hidden-textbox form-control" placeholder="Ποσότητα">
+                    </label>
+                    <br>
+
+                    <label for id="Client6" class="checkbox-inline">
+                        <input type="checkbox" name="Client6" id="Client6" value="Client6">Πελάτης 6
+                        <input type="text" name="quant" style="width: 90px; margin-left: 20px;"
+                            class="hidden-textbox form-control" placeholder="Ποσότητα">
+                    </label>
+                    <br>
+
+                    <label for id="Client7" class="checkbox-inline">
+                        <input type="checkbox" name="Client7" id="Client7" value="Client7">Πελάτης 7
+                        <input type="text" name="quant" style="width: 90px; margin-left: 20px;"
+                            class="hidden-textbox form-control" placeholder="Ποσότητα">
+                    </label>
+                    <br>
+
+                    <label for id="Client8" class="checkbox-inline">
+                        <input type="checkbox" name="Client8" id="Client8" value="Client8">Πελάτης 8
+                        <input type="text" name="quant" style="width: 90px; margin-left: 20px;"
+                            class="hidden-textbox form-control" placeholder="Ποσότητα">
+                    </label>
+                    <br>
+
+                    <label for id="Client9" class="checkbox-inline">
+                        <input type="checkbox" name="Client9" id="Client9" value="Client9">Πελάτης 9
+                        <input type="text" name="quant" style="width: 90px; margin-left: 20px;"
+                            class="hidden-textbox form-control" placeholder="Ποσότητα">
+                    </label>
+                    <br>
+
+                    <label for id="Client10" class="checkbox-inline">
+                        <input type="checkbox" name="Client10" id="Client10" value="Client10">Πελάτης 10
+                        <input type="text" name="quant" style="width: 90px; margin-left: 13px;"
+                            class="hidden-textbox form-control" placeholder="Ποσότητα">
+                    </label>
+                    <br>
+
+                    <label for id="Client11" class="checkbox-inline">
+                        <input type="checkbox" name="Client11" id="Client11" value="Client11">Πελάτης 11
+                        <input type="text" name="quant" style="width: 90px; margin-left: 14px;"
+                            class="hidden-textbox form-control" placeholder="Ποσότητα">
+                    </label>
+                    <br>
+
+                    <label for id="Client12" class="checkbox-inline">
+                        <input type="checkbox" name="Client12" id="Client12" value="Client12">Πελάτης 12
+                        <input type="text" name="quant" style="width: 90px; margin-left: 13px;"
+                            class="hidden-textbox form-control" placeholder="Ποσότητα">
+                    </label>
+                    <br>
+                </div>
+            </div>
+
+            <h3>Εισαγωγή στοιχείων σχετικά με τα φορτηγά</h3>
+
+            <!-- number of tracks -->
+            <div class="form-group">
+                <label for="tracks" class="control-label main-label">Αριθμός διαθέσιμων φορτηγών </label>
+                <input type="text" name="tracks" id="tracks" class="form-control" style="width: 90px;">
+            </div>
+
+
+            <!-- capacity of tracks -->
+            <div class="form-group">
+                <label for="capacity" class="control-label main-label">Χωρητικότητα φορτηγών (επιλέξτε μονάδα
+                    μέτρησης)</label>
+                <p>Σε ίδια μονάδα μέτρησης θα πρέπει να είναι και η ζήτηση των πελατών.</p>
+                <div class="form-inline">
+                    <input type="text" name="capacity" id="capacity" class="form-control" style="width: 90px;">
+                    <select id="measure" name="measure" class="form-control" style="width: 180px;">
+                        <option value="kg">Κιλά</option>
+                        <option value="lt">Λίτρα</option>
+                        <option value="sqm">Τετραγωνικά μέτρα</option>
+                    </select>
+                </div>
+            </div>
+
+
+            <br>
+            <a href="schedule.html" class="button btn btn-success" style="text-align: center; margin-bottom: 3%;"
+                type="button">Έκδοση Προγράμματος Δρομολογίων</a>
+        </form>
+    </div>
+</body>
